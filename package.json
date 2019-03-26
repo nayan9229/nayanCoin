@@ -1,0 +1,35 @@
+{
+  "name": "nayan_coin",
+  "version": "0.0.0",
+  "description": "Blockchain Node.js implementation PoC",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "dev": "pm2-runtime start server.js --watch --name=NaynCoin",
+    "start": "pm2-runtime start server.js --name=NaynCoin",
+    "pro": "pm2-runtime start server.js --name=NaynCoin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayan9229/nayanCoin.git"
+  },
+  "keywords": [
+    "Blockchain",
+    "Block",
+    "Node.js",
+    "Node"
+  ],
+  "author": "Nayan Mevada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nayan9229/nayanCoin/issues"
+  },
+  "homepage": "https://github.com/nayan9229/nayanCoin#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "elliptic": "^6.4.1",
+    "express": "^4.16.4",
+    "pm2": "^3.4.0"
+  }
+}
